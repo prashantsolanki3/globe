@@ -6,6 +6,8 @@
 
 # Globe
 
+[![Terraform](https://github.com/prashantsolanki3/globe/actions/workflows/terraform.yaml/badge.svg)](https://github.com/prashantsolanki3/globe/actions/workflows/terraform.yaml)
+
 Deploy Docker and Cloudflare Resources
 
 ## Features
