@@ -21,3 +21,13 @@
 #   default     = true
 # }
 
+variable "cloudflare_account_id" {
+  description = "Cloudflare account id"
+  type        = string
+}
+
+
+variable "globe_cloudflare_tunnel_secret" {
+  description = "Cloudflare tunnel secret for globe tunnel"
+  type        = string
+}

@@ -1,9 +1,9 @@
-terraform {
-  cloud {
-    organization = "prashantsolanki3"
+# terraform {
+#   cloud {
+#     organization = "prashantsolanki3"
 
-    workspaces {
-      name = "globe"
-    }
-  }
-}
+#     workspaces {
+#       name = "globe-local"
+#     }
+#   }
+# }

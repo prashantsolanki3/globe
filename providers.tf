@@ -18,6 +18,8 @@ provider "cloudflare" {
 }
 
 provider "docker" {
-  host = "unix:///var/run/docker.sock"
+  # host = "unix:///var/run/docker.sock"
+  host     = "ssh://${var.docker_host_user}@${var.docker_host}:${var.docker_host_ssh_port}"
+  ssh_opts = ["-o", "StrictHostKeyChecking=no", "-o", "UserKnownHostsFile=/dev/null"]
 }
 
